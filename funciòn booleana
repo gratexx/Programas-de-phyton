@@ -1,0 +1,2 @@
+def filtrar_con_funcion_booleana(funcion_booleana, lista):
+    return [elemento for elemento in lista if funcion_booleana(elemento)]
