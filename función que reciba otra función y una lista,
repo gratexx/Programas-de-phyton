@@ -1,0 +1,2 @@
+def aplicar_funcion_a_lista(funcion, lista):
+    return [funcion(elemento) for elemento in lista]
